@@ -55,7 +55,7 @@
 
 #### Ejemplo `fb1-4.l`
 
-* **Descripción:** Escáner manuscrito (sin Flex) para comparar resultados.
+* **Descripción:** Escáner manuscrito para comparar resultados.
 * **Ejecución:**
 
   ```bash
@@ -63,7 +63,7 @@
    cc lex.yy.c -lfl
    ./a.out
   ```
-* **Salida esperada:** Mismos tokens que el ejemplo con Flex.
+* **Salida esperada:** Resuldato dependiendo de la comparción.
 * **Hallazgos:** Sirve para contrastar código generado vs. código manual.
 
 ---
@@ -79,7 +79,7 @@
   cc lex.yy.c -lfl
   ./a.out
   ```
-* **Salida esperada:** Operaciones matemáticas simples evaluadas.
+* **Salida esperada:** Operaciones matemáticas simples.
 * **Hallazgos:** Integración completa escáner + analizador.
 
 ---
